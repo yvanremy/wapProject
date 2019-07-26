@@ -1,0 +1,45 @@
+
+body{
+    background-image: url("images/back3.png");
+}
+#content{
+  background-image: url("images/back3.png");
+  width: 80%;
+  margin-left: auto;
+  margin-right:auto;
+  text-align: center;
+}
+
+  
+li:hover{
+    color:red;
+    background-color: cyan;
+}
+
+#list{
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul li{
+
+    display: block;
+}
+
+h1{
+    font-family: fantasy;;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    background-color: chocolate;
+    font-weight: bold;
+    margin: 5px;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
