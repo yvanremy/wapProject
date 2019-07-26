@@ -1,0 +1,103 @@
+#container{
+    background-image: url("images/background.png");
+    background-color: black;
+    overflow: hidden;
+    font : 8pt Verdana, Tahoma;
+
+}
+
+#header{
+    background-image: url("images/bannerbg.png");
+}
+#movie-name{
+    font: 24pt bold  Tahoma, Verdana;
+    margin: 20px;
+   
+}
+
+.center{
+    text-align: center;
+}
+
+#title-name{
+    text-shadow: 3px 3px #999999;
+}
+
+#content{
+    border : 4px gray  solid;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    overflow: hidden;
+}
+
+#rotten{
+    float: left;
+    width: 550px;
+}
+#rotten-head{
+    background-image: url("images/rbg.png");
+}
+
+#r-percent{
+    font : 48pt bold;
+    color : red;
+}
+#rotten-image{
+    vertical-align: bottom;
+}
+
+#review{
+    padding: 0 10px;
+    column-count: 2;
+   
+}
+.review-box{
+    font: 8pt bold;
+    background-color: #E8DC9B;
+    border: 2px gray thick;
+    border-radius: 10px;
+    padding: 8px;
+    display: inline-block;
+    width: 90%;
+    overflow: hidden;
+}
+
+.review-image{
+    float: left;
+    margin-right: 5px;
+}
+
+.comment-review{
+    font: 8pt bold;
+    border: 2px gray thick;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+#right-side{
+    float: right;
+    width: 250px;
+    background-color: #A2B964;
+
+}
+
+.comment-review{
+   margin-top: 0;
+   margin-bottom: 20pt;
+   overflow: hidden;
+}
+
+#footer{
+    background-color: #A2B964;
+    padding: 5px;
+    text-align: center;
+    clear: both;
+}
+
+#validator{
+    float:right;
+   
+}
+
