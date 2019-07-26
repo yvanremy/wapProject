@@ -1,0 +1,41 @@
+.cntxt{
+margin: 30px;
+}
+
+.main-content{  
+  padding: 10px;   
+  margin: auto;   
+  background-color:darkslategrey;  
+}
+
+.head-content{
+
+font-size: -webkit-xxx-large;
+font-family: fantasy;
+
+}
+li{
+    font-family: cursive;
+    color: white;
+}
+
+#movie-span{
+    color: white;
+    font-style: italic;
+}
+
+.yelow-details{
+    color: yellow;
+}
+p{
+    color: white;
+}
+
+h1,h2{
+    font-family: fantasy;
+    color: dodgerblue;
+}
+
+a{
+    color: red;
+}
