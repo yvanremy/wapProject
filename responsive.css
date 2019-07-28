@@ -1,0 +1,65 @@
+#header{
+    text-align: center;
+    background-color: cadetblue;
+    padding: 10px;
+}
+
+#menu{
+    display: flex;
+    background-color: darkslategrey;
+}
+
+#menu > a > div{
+    color: white;
+    padding: 10px;
+    border : 1px solid black;
+}
+ 
+#content{
+    width: 100%;
+}
+
+#content > div{
+    height: 300px;
+}
+#col1{
+    width: 25%;
+    float: left;
+    background-color: darkgray;
+}
+#col2{
+    width: 50%;
+    float: left;
+    background-color: lightgray;
+}
+#col3{
+    width: 25%;
+    float: right;
+    background-color: gray;
+}
+
+#footer{
+    clear: both;
+    text-align: center;
+    background-color: darkslategrey;
+    padding: 10px;
+}
+
+@media (max-width : 600px){
+    #col1{
+        width: 50%;
+        float: left;
+        background-color: darkgray;
+    }
+    #col2{
+        width: 50%;
+        float: left;
+        background-color: lightgray;
+    }
+    #col3{
+        clear: both;
+        width: 100%;
+        background-color: gray;
+    }
+
+}
