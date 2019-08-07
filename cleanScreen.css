@@ -1,0 +1,20 @@
+td{
+    padding: 10px 0px;
+}
+
+* {
+    box-sizing: border-box; 
+}
+
+#controllers{
+width: 35%;
+float: left;
+}
+
+#cycles{
+    position: relative;
+    width: 65%;
+    float: right;
+    height: auto;
+
+}

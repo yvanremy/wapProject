@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
     "use strict";
-    
+
   let status = false;
   let hitWall = false;
   $("#start").click(function() {
@@ -34,3 +34,8 @@ $(document).ready(function() {
   });
 
 });
+
+
+setInterval(function(){
+this
+},1000);
