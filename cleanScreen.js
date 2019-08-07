@@ -1,7 +1,12 @@
 (function() {
+
   "use strict";
 
+
+
   $(function() {
+    let timer = null;
+
     var colors = ["green","yellow","black","gray","blue"];  
 
     function getRandomInt(min, max) {
@@ -11,6 +16,11 @@
       } 
 
     $("#button").on("click", function() {
+
+      if(timer != null){
+        clearInterval(timer);
+        timer = null;
+      }
       let width = $("#width").val();
       let amount = parseInt($("#amount").val());
       let rate = $("#rate").val();
@@ -37,7 +47,7 @@
         );
       }
 
-      setInterval(function() {
+     timer =  setInterval(function() {
         let oldwidth = parseInt($(".cycle").css("width"));
         let newWidth = oldwidth + amount + "px";
         $(".cycle").css("width", newWidth);
